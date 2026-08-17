@@ -1,0 +1,3 @@
+runpod
+requests>=2.32
+muscriptor==0.3.0
