@@ -17,7 +17,7 @@ from muscriptor import TranscriptionModel
 # CONFIGURATION
 # =========================================================
 
-MODEL_SIZE = os.getenv("MUSCRIPTOR_MODEL", "large")
+MODEL_SIZE = os.getenv("MUSCRIPTOR_MODEL", "medium")
 
 MAX_AUDIO_SIZE_MB = int(
     os.getenv("MAX_AUDIO_SIZE_MB", "150")
